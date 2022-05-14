@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SiteActivityReporting.Common\SiteActivityReporting.Common.csproj" />
+    <ProjectReference Include="..\SiteActivityReporting.Data\SiteActivityReporting.Data.csproj" />
+  </ItemGroup>
+
+</Project>

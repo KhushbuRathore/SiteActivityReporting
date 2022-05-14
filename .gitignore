@@ -3,3 +3,15 @@
 ################################################################################
 
 /SiteActivityReporting/.vs/SiteActivityReporting
+/SiteActivityReporting/SiteActivityReporting/bin/Debug/net5.0
+/SiteActivityReporting/SiteActivityReporting/obj
+/SiteActivityReporting/SiteActivityReporting.Common/bin/Debug/net5.0
+/SiteActivityReporting/SiteActivityReporting.Common/obj
+/SiteActivityReporting/SiteActivityReporting.Data/bin/Debug/net5.0
+/SiteActivityReporting/SiteActivityReporting.Data/obj
+/SiteActivityReporting/SiteActivityReporting.Domain/bin/Debug/net5.0
+/SiteActivityReporting/SiteActivityReporting.Domain/obj
+/SiteActivityReporting/SiteActivityReporting.Service/bin/Debug/net5.0
+/SiteActivityReporting/SiteActivityReporting.Service/obj
+/SiteActivityReporting/SiteActivityReporting.Test/bin/Debug/net5.0
+/SiteActivityReporting/SiteActivityReporting.Test/obj
