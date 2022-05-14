@@ -65,7 +65,7 @@ namespace SiteActivityReporting.Controllers
 
                 // Get Total Activity Event Count.
                 var activityEvent = _activityEventService.GetActivityEventTotal(key);                
-                return Ok(activityEvent);
+                return Ok(new ActivityEventDTO { Value = activityEvent });
             }
             catch (Exception ex)
             {                

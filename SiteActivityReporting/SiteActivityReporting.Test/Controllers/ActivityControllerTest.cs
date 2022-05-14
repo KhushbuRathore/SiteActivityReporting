@@ -108,10 +108,10 @@ namespace SiteActivityReporting.Test.Controllers
             
             //Assert
             Assert.NotNull(fetchedOkResponse);
-            var item = Convert.ToInt32(fetchedOkResponse.Value);
+            var item = fetchedOkResponse.Value as ActivityEventDTO;
 
-            Assert.IsType<int>(item);
-            Assert.Equal(41, item);
+            Assert.IsType<ActivityEventDTO>(item);
+            Assert.Equal(41, item.Value);
         }
 
         [Fact]
@@ -125,10 +125,10 @@ namespace SiteActivityReporting.Test.Controllers
 
             //Assert
             Assert.NotNull(fetchedOkResponse);
-            var item = Convert.ToInt32(fetchedOkResponse.Value);
+            var item = fetchedOkResponse.Value as ActivityEventDTO;
 
-            Assert.IsType<int>(item);
-            Assert.Equal(0, item);
+            Assert.IsType<ActivityEventDTO>(item);
+            Assert.Equal(0, item.Value);
         }
     }
 }
